@@ -1,0 +1,36 @@
+{
+    "name": "Spaceship Game Alpha 1",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "pxt-rtttl": "github:pelikhan/pxt-rtttl#v0.0.10",
+        "color": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.0",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.0",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.1.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.2.10",
+        "tag": "v1.2.10",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/96279205a73799cd057b50beda9ca58593067e18",
+        "target": "1.2.16",
+        "pxt": "6.2.23",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
